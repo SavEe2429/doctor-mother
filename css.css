@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Chakra Petch';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #612378;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    border: 0.7px solid;
+    
+}
+
+.header-flex{
+    display: flex;
+    align-items: baseline;
+    padding:1rem;
+
+}
+
+.header-flex li {
+    margin: 0 1rem;
+    font-size: 1.875rem;
+
+}
+/* ------------------------------------------------------ */
+.content .topic {
+    font-size: 5.375rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.content .sec-content p {
+    text-align: center;
+    margin: 1rem 2rem;
+    font-size: 1.875rem;
+
+}
+
+.content .buttom {
+    text-align: center;
+}
+
+.content .buttom h4{
+    margin: 2rem auto;
+    padding: 1.25rem 2.5rem;
+    background-color: #fff;
+    color: #612378;
+    width: 9.375rem;
+    font-size: 18px;
+}
+/* --------------------------------------------------- */
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    margin: 10rem 4rem 10rem 17rem;
+}
+
+.content-grid-1 {
+    font-size: 36px;
+}
+
+.content-grid-2 {
+    margin: auto;
+    /* margin-left: 20rem; */
+    /* margin-right: 2rem; */
+    font-size: 24px;
+    padding: 200px 100px;
+    border: 2px solid;
+}
+
+.content-grid-1 .topic1 {
+    font-size: 50px;
+}
+
+/* --------------------------------------------- */
+.review {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 24px;
+}
+
+.pic {
+    margin: 4rem auto 2rem;
+    padding: 100px 25px;
+    border: 2px solid;
+    border-radius: 100%;
+    width: 257px;
+}
+
+.name span {
+    font-size: 36px;
+}
+
+.name p{
+    padding: 50px;
+}
+/* ----------------------------------------- */
+.contact-grid {
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    margin: 5rem 4rem;
+
+}
+.contact-grid .map {
+    text-align: center;
+    margin: auto;
+    padding: 200px 150px;
+    border: 2px solid;
+    font-size: 24px;
+}
+
+.contact-grid .details {
+    margin-left: 3rem;
+}
+
+
+.contact-grid .details span{
+    font-size: 50px;
+    
+}
+
+.contact-grid .details p {
+    text-align: left;
+    font-size: 24px;
+    
+}
