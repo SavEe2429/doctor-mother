@@ -38,6 +38,12 @@ ul {
     font-size: 1.875rem;
 
 }
+.header-flex img {
+    margin: 0;
+    width: 0px;
+
+}
+
 /* ------------------------------------------------------ */
 .content .topic {
     font-size: 5.375rem;
