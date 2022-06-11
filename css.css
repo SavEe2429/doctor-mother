@@ -69,7 +69,7 @@ ul {
 .content-grid {
     display: grid;
     grid-template-columns: 1fr 0.75fr;
-    margin: 10rem 4rem 10rem 17rem;
+    margin: 10rem 4rem 10rem 10rem;
 }
 
 .content-grid-1 {
@@ -83,10 +83,12 @@ ul {
     font-size: 24px;
     padding: 200px 100px;
     border: 2px solid;
+    margin-left: 10px;
 }
 
 .content-grid-1 .topic1 {
     font-size: 50px;
+
 }
 
 /* --------------------------------------------- */
@@ -145,4 +147,255 @@ ul {
     text-align: left;
     font-size: 24px;
     
+}
+
+/* -----------------min srceen---------------- */
+
+@media screen and (max-width: 950px) and  (min-width: 700px) {
+
+    
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .header-flex li {
+        margin: 0 1rem;
+        font-size: 24px;
+    }
+    
+    .header-flex img {
+        margin: 0;
+        width: 0px;
+    
+    }
+/* ------------------------------------------- */
+    .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+        margin: 10rem 4rem 10rem 7rem;
+    }
+    
+    .content-grid-1 {
+        font-size: 24px;
+    }
+    
+    .content-grid-2 {
+        margin: auto;
+        /* margin-left: 20rem; */
+        /* margin-right: 2rem; */
+        font-size: 24px;
+        padding: 150px 50px;
+        border: 2px solid;
+    }
+
+    .content-grid-1 .topic1 {
+        font-size: 45px;
+    }
+/* ------------------------------------------- */
+    .review {
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    .review-grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 24px;
+    }
+    
+    .pic {
+        margin: 4rem auto 2rem;
+        padding: 75px 25px;
+        border: 2px solid;
+        border-radius: 100%;
+        width: 200px;
+    }
+    /* ------------------------------- */
+    .contact-grid .map {
+        text-align: center;
+        margin: auto;
+        padding: 150px 100px;
+        border: 2px solid;
+        font-size: 24px;
+    }
+    
+    .contact-grid .details {
+        margin-left: 3rem;
+    }
+
+    .contact-grid .details span{
+        font-size: 36px;
+        
+    }
+    
+    .contact-grid .details p {
+        text-align: left;
+        font-size: 18px;
+        
+    }
+
+}
+@media screen and (max-width: 699px) {
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: right;
+        border: 0.7px solid;
+        
+    }
+    
+    .header-flex{
+        display: flex;
+        align-items: baseline;
+        padding:1rem;
+    
+    }
+
+    .header-flex li {
+        font-size: 0px;
+    }
+    
+    .header-flex img {
+        margin: 0 1rem;
+        width: 25px;
+        
+    
+    }
+    /* ------------------------------------------------------ */
+    .content .topic {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    
+    .content .sec-content p {
+        text-align: center;
+        margin: 1rem 2rem;
+        font-size: 20px;
+    
+    }
+    
+    .content .buttom {
+        text-align: center;
+    }
+    
+    .content .buttom h4{
+        margin: 2rem auto;
+        padding: 1.25rem 2.5rem;
+        background-color: #fff;
+        color: #612378;
+        width: 9.375rem;
+        font-size: 18px;
+    }
+    /* --------------------------------------------------- */
+    
+    .content-grid {
+        margin: auto;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .content-grid-1 {
+        font-size: 24px;
+
+        margin: 35rem 1rem 10rem;
+    }
+    
+    .content-grid-2 {
+        margin-left: 0;
+        margin-top: 15rem;
+        position: absolute;
+        padding: 10rem 3rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .content-grid-1 .topic1 {
+        font-size: 36px;
+    
+    }
+
+    .content-grid-2 p {
+        width: 155px;
+    }
+    
+    /* --------------------------------------------- */
+    .review {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .review-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 24px;
+    }
+    
+    .pic {
+        margin: 4rem auto 2rem;
+        padding: 100px 25px;
+        border: 2px solid;
+        border-radius: 100%;
+        width: 257px;
+    }
+    
+    .name span {
+        font-size: 36px;
+    }
+    
+    .name p{
+        padding: 50px;
+    }
+    /* ----------------------------------------- */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin: auto;
+        margin-bottom: 30rem;
+        
+    
+    }
+    .contact-grid .map {
+        text-align: center;
+        margin: 220rem auto ;
+        position: absolute;
+        padding: 100px 100px;
+        border: 2px solid;
+        font-size: 24px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .contact-grid .details {
+        margin: 0;
+        margin: 3rem 1rem;
+    }
+    
+    
+    .contact-grid .details span{
+        font-size: 36px;
+        
+        
+    }
+    
+    .contact-grid .details p {
+        text-align: left;
+        font-size: 18px;
+        
+    }
 }
